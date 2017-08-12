@@ -1,4 +1,4 @@
 # angularjs
 "# angularjs" 
 "# angularjs" 
-# This Repository contains appa made using angularJS 
+# This Repository contains apps that are made with angularJS framework
