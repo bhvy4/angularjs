@@ -69,7 +69,7 @@ app.controller("myctrl", function ($scope, myfactory) {
             })
     }
     }
-    $scope.hobbies = function(){
+    function hobbies (){
         var hob = myfactory.call7();
         hob.then(function(data){
             $scope.display3 = data.data.hobbies;
@@ -78,6 +78,7 @@ app.controller("myctrl", function ($scope, myfactory) {
             $scope.error=er;
         })
     }
+    hobbies();
     $scope.submitForm=function(form){
         console.log("call validate")
         if($scope.form.$valid){
